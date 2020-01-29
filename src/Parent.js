@@ -12,7 +12,8 @@ class Parent extends Component {
     }
   }
 
-  // run this changeColor() method when either Child component is clicked. 
+  // run this changeColor() method when either Child component is clicked
+  // to send data back to the parent, change changeColor to take in an argument of newChildColor
   changeColor = (newChildColor) => {
     this.setState({
       color: getRandomColor(),
